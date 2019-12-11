@@ -1,0 +1,70 @@
+h1{
+    font-size:4rem;
+}
+
+.roboto{
+    font-family: 'Roboto';
+    border-right:1px solid black;
+    background-color: white;
+    background:url("../img/roboto.jpeg");
+    height: 100vh;
+    background-size:cover;
+}
+
+.roboto article h1{
+    transition: .3s ease; 
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.roboto article h1:hover{
+    transform: scale(1.2);
+}
+
+
+.bigshouldersdisplay{
+    font-family: 'Big Shoulders Display';
+    background:url("../gif/snow.gif");
+}
+.bigshouldersdisplay article h1{
+    transition: .3s ease;
+    text-shadow: 2px 2px 4px #000000;
+}
+.bigshouldersdisplay article h1:hover{
+    transform: scale(1.2);
+}
+
+main{
+    display:flex;
+}
+
+div{
+    height:100vh;
+    width:50vw;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+div a{
+    text-decoration:none;
+    color:white;
+    text-align:center;
+}
+
+
+
+@media (max-width:600px){
+    main{
+        flex-wrap:wrap;
+    }
+    div{
+        width:100vw;
+        height:50vh;
+    }
+    .roboto{
+        border-bottom:1px solid black;
+    }
+    h1{
+        font-size:2em;
+    }
+}

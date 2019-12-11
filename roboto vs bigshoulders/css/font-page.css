@@ -1,0 +1,229 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 30vw; /*WRAPING*/
+    margin-left: 45vw;
+    margin-top: 50px;
+    line-height: 1.5em;
+    
+}
+
+header{
+    position: fixed;    /*DEN STÅR PÅ SAMME STED*/
+    left: 0; /*kommer helt ut til venstre*/
+    top: 0;
+    width: 20vw;
+    height: 200vh;
+    background-color: black;
+}
+/*Menu-list - good for blind people*/
+
+.menu{
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: content;
+    position: fixed;
+    height: 100%;
+    font-size: 19px;    
+    padding-inline-start: 32px;
+}
+.roboto {
+    letter-spacing:.5em;
+   /* word-spacing: 2em;*/
+   line-height: 45px;
+
+
+}
+
+.menu li a {
+    padding: 10px 0px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    transition: all 0.3s ease; /*overgang*/
+    
+}
+
+.menu li a:hover {
+    transform: scale(1.2);
+    
+}
+
+
+
+/*CONTENT*/
+
+h1{
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-top: 1px solid black;  /*strekk for å skille*/
+    padding-top: 20px;
+    margin-top: 20px;
+    letter-spacing:.5em;
+
+}
+
+.font-variants{
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+    padding: 0;
+}
+
+.font-stage {
+    letter-spacing: 3px;
+    font-size: 15pt;
+    line-height: 1.8;
+    width: 100%;
+    word-break: break-all;
+}
+
+main a {
+    display: block;
+    margin-top: 22px;
+    text-align: right;
+    color: black;
+}
+
+.example-1{
+    font-size: 25pt;
+    font-style: italic;
+    color: #009688
+}
+
+.example-2{
+    font-size: 20pt;
+    font-weight: bold;
+    
+}
+
+.example-3{
+    font-size: 25pt;
+    font-weight: lighter;
+    color: #607d8b;
+    
+}
+.example-4{
+    font-size: 20pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.examples{
+    line-height: 1.2;
+
+}
+
+.home {
+    background: #353535;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+#liga {
+    background: url("/img/nyc.jpg") center;
+    color: white;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    border-radius: 16px;
+    text-shadow: 2px 2px 0px black;
+    transition: 0.2s all;
+
+}
+
+#liga:hover {
+    background: url("/img/nyc-2.jpg") center;
+
+}
+
+#liga h1 {
+    border-color: white;
+    
+}
+
+.design-example {
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+.p .thin{
+    font-weight: 100;
+}
+.light{
+    font-weight:300;
+}
+.regular{
+    font-weight: 400;
+}
+
+.medium{
+    font-weight:500;
+}
+
+.bold{
+    font-weight:700;
+
+}
+.italic{
+    font-style: italic;
+}
+
+.black{
+    font-weight: 900;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:900px){
+    body{
+        background-color:white;
+    }
+}
+
+@media (max-width:600px){
+    body{
+        max-width: 80px;
+        margin:auto;
+        background-color: white;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    header{
+        width: 200vw;
+        height: 10vh;
+    }
+    .font-variants{
+        line-height: 36px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .menu{
+        display: block;
+        text-align: center;
+    }
+    .menu li{
+        display: none;
+    }
+    .menu li:first-child, .menu li:last-child{
+        display: inline-block;
+    }
+}
