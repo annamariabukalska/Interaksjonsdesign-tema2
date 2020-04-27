@@ -14,7 +14,7 @@ Viser en oversikt av fontens bokstaver fra a-z(minuskel) A-Z(majiskel) og tall 0
 
 ![alt text](https://user-images.githubusercontent.com/56019427/80380991-8e31e180-88a0-11ea-83c7-6779c0d7b509.png)
 
-![alt text]
+![alt text](https://user-images.githubusercontent.com/56019427/80383788-5c227e80-88a4-11ea-9611-9da8bf7b1252.png)
 ![alt text]
 ![alt text]
 ![alt text]
