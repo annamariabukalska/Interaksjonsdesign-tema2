@@ -13,11 +13,9 @@ Viser en oversikt av fontens bokstaver fra a-z(minuskel) A-Z(majiskel) og tall 0
 
 
 ![alt text](https://user-images.githubusercontent.com/56019427/80380991-8e31e180-88a0-11ea-83c7-6779c0d7b509.png)
-
 ![alt text](https://user-images.githubusercontent.com/56019427/80383788-5c227e80-88a4-11ea-9611-9da8bf7b1252.png)
 ![alt text](https://user-images.githubusercontent.com/56019427/80383891-7b211080-88a4-11ea-97ff-0f51434533e6.png)
-
-![alt text]
-![alt text]
-![alt text]
-![alt text]
+![alt text](https://user-images.githubusercontent.com/56019427/80383992-9a1fa280-88a4-11ea-8d35-4b91402827d5.png)
+![alt text](https://user-images.githubusercontent.com/56019427/80384103-c20f0600-88a4-11ea-8106-edf533f1fffc.png)
+![alt text](https://user-images.githubusercontent.com/56019427/80384171-d6eb9980-88a4-11ea-80e3-abfdec5dc433.png)
+![alt text](https://user-images.githubusercontent.com/56019427/80384248-ee2a8700-88a4-11ea-8cbc-dec23d9ec39e.png)
