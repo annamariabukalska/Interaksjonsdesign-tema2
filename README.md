@@ -10,3 +10,7 @@ Viser en oversikt av fontens bokstaver fra a-z(minuskel) A-Z(majiskel) og tall 0
 #### Design eksempel: bruke fonten for å formgi et slagsord. 
 
 #### Navigasjon: hver fontartikkel skal ha en meny som gjør det mulig å navigere raskt til de forskjellige kapitlene. 
+
+
+![alt text](https://user-images.githubusercontent.com/56019427/80380991-8e31e180-88a0-11ea-83c7-6779c0d7b509.png)
+
